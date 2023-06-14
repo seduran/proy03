@@ -1,0 +1,10 @@
+bootstap
+npm install bootstrap@5.3.0
+modificar angular.json (la parte build, no test):
+            "styles": [
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css" //o bien el min o el normal
+            ],
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
